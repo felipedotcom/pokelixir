@@ -13,10 +13,10 @@ config :pokelixir,
 # Configures the endpoint
 config :pokelixir, PokelixirWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "eG7nB/18WG5s6C788//uJ8GmB9TdrftE7HHyWgzBAQyc8ptTVq8gGM/pfQ4ZN2IK",
+  secret_key_base: "BeR4b3cUHZ9yIF1vJFT2Izao4CoJJFQqRr2aKAEHz0x8xl3XEEO6KGsGz7hSqrk9",
   render_errors: [view: PokelixirWeb.ErrorView, accepts: ~w(json), layout: false],
   pubsub_server: Pokelixir.PubSub,
-  live_view: [signing_salt: "VczChF+9"]
+  live_view: [signing_salt: "k6MrjqDe"]
 
 # Configures Elixir's Logger
 config :logger, :console,

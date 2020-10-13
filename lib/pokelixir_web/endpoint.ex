@@ -7,7 +7,7 @@ defmodule PokelixirWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_pokelixir_key",
-    signing_salt: "vIPInVDk"
+    signing_salt: "BTJFaWTn"
   ]
 
   socket "/socket", PokelixirWeb.UserSocket,
